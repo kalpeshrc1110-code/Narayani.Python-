@@ -5,7 +5,10 @@ if (M>=10 and M<21):
 else:
     print ("false! your age is not withen the range or 10-20")
 # i uhhhh gott a biiiiit carried away..........
-U = int(input("What is your age?"))
+import time
+time.sleep (5)
+
+U = int(input("What is your age? (for diffrent purposes)"))
 if (U<=-1):
     ("ERROR IN SYSTEM!! THIS AGE IS NOT YET BORN")
 elif (U>=10 and U<21):
