@@ -1,3 +1,10 @@
+print ("is your age in the range or 10-20? lets find out!")
+M = int(input("What is your age?"))
+if (M>=10 and M<21):
+    print ("true! your age is in the range or 10-20")
+else:
+    print ("false! your age is not withen the range or 10-20")
+# i uhhhh gott a biiiiit carried away..........
 U = int(input("What is your age?"))
 if (U<=-1):
     ("ERROR IN SYSTEM!! THIS AGE IS NOT YET BORN")
