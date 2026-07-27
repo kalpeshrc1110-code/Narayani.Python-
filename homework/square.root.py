@@ -1,2 +1,3 @@
-num = int(input("Enter a Number________"))
-#i have never leaned how to do square root......
+N = int(input("please enter a number"))
+A = N * N
+print ("The square root of",N, "is", A)
