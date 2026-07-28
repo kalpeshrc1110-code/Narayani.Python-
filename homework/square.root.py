@@ -1,3 +1,3 @@
 N = int(input("please enter a number"))
-A = N * N
+A = N ** 0.5
 print ("The square root of",N, "is", A)
