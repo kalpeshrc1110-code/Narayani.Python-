@@ -24,8 +24,20 @@ def by_three (num):
 
 
 
-num = int(input("enter a number"))
+num = int(input("enter a number to find the cube of it"))
 print ("the cube of ", num, "is", by_three (num))
+ # acticity 3
+
+def factorial (x):
+    if x == 0 or x == 1:
+        return 1
+    else:
+        return x * factorial (x-1)
+
+x = int(input("enter a number to find the factotial of the number "))
+
+print (factorial(x), "is the factorial of the number")
+
 
 
 
